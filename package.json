@@ -1,0 +1,32 @@
+{
+  "name": "document-management-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwahalf/document-management-system.git"
+  },
+  "keywords": [],
+  "author": "kwahalf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kwahalf/document-management-system/issues"
+  },
+  "homepage": "https://github.com/kwahalf/document-management-system#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-promise-router": "^2.0.0",
+    "joi": "^13.0.1",
+    "mongoose": "^4.12.5",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
